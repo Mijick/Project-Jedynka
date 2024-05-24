@@ -1,0 +1,15 @@
+{
+  "originHash" : "a0493b2c778849d2c290191dcb7b849ebc62914a1a86b0ba92b800d2fb395b6b",
+  "pins" : [
+    {
+      "identity" : "navigationview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Mijick/NavigationView",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2720753fa85daf05ace5e3f048c64e2f4e56fa61"
+      }
+    }
+  ],
+  "version" : 3
+}
