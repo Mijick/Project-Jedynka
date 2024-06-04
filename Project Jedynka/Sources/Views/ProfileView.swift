@@ -19,6 +19,9 @@ struct ProfileView: View {
         }
         .padding(.horizontal, .marginValue)
         .navigationBarBackButtonHidden(true)
+        .onTapGesture {
+            A().showAndStack()
+        }
     }
 }
 private extension ProfileView {

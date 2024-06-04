@@ -24,6 +24,7 @@
 		6DDB7DD02C0257CF00477DDE /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB7DCC2C0257CF00477DDE /* Inter-SemiBold.ttf */; };
 		6DDB7DD22C0257DA00477DDE /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB7DD12C0257DA00477DDE /* Font++.swift */; };
 		6DDB7DD52C0258C800477DDE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB7DD42C0258C800477DDE /* Colors.xcassets */; };
+		6DE2B2172C0F26AB005E81FC /* MijickPopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 6DE2B2162C0F26AB005E81FC /* MijickPopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDB7DC62C024A9200477DDE /* MijickNavigationView in Frameworks */,
+				6DE2B2172C0F26AB005E81FC /* MijickPopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +177,7 @@
 			name = "Project Jedynka";
 			packageProductDependencies = (
 				6DDB7DC52C024A9200477DDE /* MijickNavigationView */,
+				6DE2B2162C0F26AB005E81FC /* MijickPopupView */,
 			);
 			productName = "Project Jedynka";
 			productReference = 6DD270262C00F1F90045FCC1 /* Project Jedynka.app */;
@@ -206,6 +209,7 @@
 			mainGroup = 6DD2701D2C00F1F90045FCC1;
 			packageReferences = (
 				6DDB7DC42C024A9200477DDE /* XCRemoteSwiftPackageReference "NavigationView" */,
+				6DE2B2152C0F26AB005E81FC /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 6DD270272C00F1F90045FCC1 /* Products */;
 			projectDirPath = "";
@@ -479,6 +483,14 @@
 				kind = branch;
 			};
 		};
+		6DE2B2152C0F26AB005E81FC /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mijick/PopupView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -486,6 +498,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6DDB7DC42C024A9200477DDE /* XCRemoteSwiftPackageReference "NavigationView" */;
 			productName = MijickNavigationView;
+		};
+		6DE2B2162C0F26AB005E81FC /* MijickPopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DE2B2152C0F26AB005E81FC /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = MijickPopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

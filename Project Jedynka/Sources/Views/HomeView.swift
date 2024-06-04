@@ -18,6 +18,9 @@ struct HomeView: View {
             createScrollableView()
         }
         .padding(.horizontal, .marginValue)
+        .onTapGesture {
+            A().showAndStack()
+        }
     }
 }
 private extension HomeView {
@@ -348,4 +351,15 @@ private extension TransactionsView {
 // MARK: - Preview
 #Preview {
     HomeView()
+}
+
+
+import MijickPopupView
+
+struct A: BottomPopup {
+    func createContent() -> some View {
+        Text("TEST 2137")
+            .foregroundStyle(.background30)
+            .frame(height: 300)
+    }
 }

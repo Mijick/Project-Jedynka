@@ -10,6 +10,7 @@
 
 
 import SwiftUI
+import MijickPopupView
 
 @main struct AppMain: App {
     var body: some Scene {
@@ -17,6 +18,7 @@ import SwiftUI
             NavigationView {
                 HomeView().preferredColorScheme(.dark)
             }
+            .implementPopupView()
         }
     }
 }
